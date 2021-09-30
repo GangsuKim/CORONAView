@@ -1,0 +1,106 @@
+#topDiv {
+    min-width: 250px;
+    height: 65px;
+}
+
+#midDiv {
+    min-width: 250px;
+    height: 70px;
+}
+
+#botDiv {
+    min-width: 250px;
+    height: 20px;
+    position: relative;
+}
+
+
+#botDivA {
+    color: rgb(102, 102, 102);
+    position: absolute;
+    top: 6.3px;
+    font-size: 14px;
+    margin-left: 3px;
+}
+
+.nameOfArea {
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+}
+
+.infectedOfArea {
+    color: rgb(134, 134, 134);
+    font-size: 20px;
+}
+
+#iconCenter {
+    font-size:22px;
+    left: 6px;
+    top: 4.7px;
+    /*top: 86.5px;*/
+    color: rgb(102, 102, 102);
+    position: relative;
+}
+
+#iconCenter:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#settingIcon {
+    font-size:22px;
+    right: 6px;
+    top: 8px;
+    /*top: 86.5px;*/
+    color: rgb(102, 102, 102);
+    position: absolute;
+}
+
+#settingIcon:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+
+.newInfectedOfArea {
+    font-size: 24px;
+}
+
+#kroeaInfPlusKorea {
+    background-color: rgb(240, 203, 203);
+    color: #a72929;
+}
+
+#kroeaInfPlusMy {
+    background-color: rgb(240, 203, 203);
+    color: #a72929;
+}
+
+#newMyAreaInfected {
+    position: relative;
+    top: -1.5px;
+}
+
+#newkoreaAreaInfected {
+    position: relative;
+    top: -1.5px;
+}
+
+.kroeaInfPlus {
+    border-radius: 9px;
+    padding-right: 3px;
+    padding-left: 5px;
+    padding-top: 13px;
+    padding-bottom: 2px;
+}
+
+#loadDate {
+    right: 4px;
+    font-size: 14px;
+    position: absolute;
+    color: rgb(100, 100, 100);
+}
+
+.emptyBlock {
+    height: 5px;
+}
