@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="option.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>코로나 VIEW 설정</title>
+</head>
+
+<body>
+    <div class="topBar">
+        <h1 id="title">코로나  VIEW</h1>
+    </div>
+    <div class="mainDiv">
+        <a id="title">지역 설정</a><br>
+        <a id="titleDes">사용자의 행정구역을 설정해 주세요</a>
+        <form style="margin-left: 15px; margin-top: 5px;">
+            <select name="area" id="area">
+                <option value="1">서울특별시</option>
+                <option value="2">부산광역시</option>
+                <option value="3">대구광역시</option>
+                <option value="4">인천광역시</option>
+                <option value="5">광주광역시</option>
+                <option value="6">대전광역시</option>
+                <option value="7">울산광역시</option>
+                <option value="8">세종특별자치시</option>
+                <option value="9">경기도</option>
+                <option value="10">강원도</option>
+                <option value="11">충청북도</option>
+                <option value="12">충청남도</option>
+                <option value="13">전라북도</option>
+                <option value="14">전라남도</option>
+                <option value="15">경상북도</option>
+                <option value="16">경상남도</option>
+                <option value="17">제주특별자치도</option>
+            </select>
+            <select name="district" id="district" disabled>
+                <option value="1">전체</option>
+                <option value="2" hidden></option>
+                <option value="3" hidden></option>
+                <option value="4" hidden></option>
+                <option value="5" hidden></option>
+                <option value="6" hidden></option>
+                <option value="7" hidden></option>
+                <option value="8" hidden></option>
+                <option value="9" hidden></option>
+                <option value="10" hidden></option>
+                <option value="11" hidden></option>
+                <option value="12" hidden></option>
+                <option value="13" hidden></option>
+                <option value="14" hidden></option>
+                <option value="15" hidden></option>
+                <option value="16" hidden></option>
+                <option value="17" hidden></option>
+                <option value="18" hidden></option>
+                <option value="19" hidden></option>
+                <option value="20" hidden></option>
+                <option value="21" hidden></option>
+                <option value="22" hidden></option>
+                <option value="23" hidden></option>
+                <option value="24" hidden></option>
+                <option value="25" hidden></option>
+                <option value="26" hidden></option>
+                <option value="27" hidden></option>
+                <option value="28" hidden></option>
+                <option value="29" hidden></option>
+                <option value="30" hidden></option>
+            </select>
+            <input type="button" name="적용" value="적용" id="selectArea">
+        </form>
+        <center><strong><a id="titleDes" style="margin-left: 30px; color: red; padding-right: 30px;">시, 군, 구 별 지역 선택이 불가능한 지역은 데이터 미제공 지역입니다.</a></strong><br>
+        <strong><a id="titleDes" style="margin-left: 30px; color: red; padding-right: 30px;">경기도의 데이터가 느리게 로딩됩니다. 2~3초 정도 기다리면 정상적으로 로딩됩니다.</a></strong><br></center>
+        <br>
+        <br>
+        <a id="title">데이터 출처</a><br>
+        <a id="titleDes">코로나 VIEW를 사용하기 위해 아래의 기관, 서비스에서 데이터를 제공받았습니다.</a><br>
+        <div id="sourceView">
+            <center>
+                <a href="http://api.go-guma.com/" target="_blank"><img src="GO_APILicense.png" alt="GO_API_License" width="250px"></a>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <a href="https://www.kogl.or.kr/index.do" target="_blank"><img src="OPEN_License.png" alt="OPEN_API_License" width="250px"></a>
+                <br>
+                <p id="sourceViewDes">이미지를 클릭하시면 해당 데이터 출처의 홈페이지로 이동합니다.</p>
+            </center>
+        </div>
+        <a id="title">About 코로나 VIEW</a><br>
+        <a id="titleDes">코로나 VIEW의 정보 입니다.</a><br>
+        <div id="aboutDiv">
+            <a id="aboutDevelope">1. 개발 계획</a><br>
+            <a id="aboutDevelopeDes">1-1. 사용자의 위치정보를 통해 손쉽게 지역을 설정 할 수 있는 기능을 준비중에 있습니다.</a>
+            <br>
+            <br>
+            <a id="aboutDevelope">2. Updates</a><br>
+            <a id="aboutDevelopeDes">2-1. 일일 확진자를 우선적으로 배치하였습니다.</a><br>
+            <a id="aboutDevelopeDes">2-2. 기타 작은 버그들을 수정하였습니다.</a><br>
+            <br>
+            <a id="aboutDevelope">3. Developer & Contact</a><br>
+            <a id="aboutDevelopeDes">Developed by GO-GUMA</a><br>
+            <a id="aboutDevelopeDes">e-Mail. gangsu1813@naver.com</a><br>
+        </div>
+        <div id="bottomDiv">
+            <center>
+                <a>© 2021. GO-GUMA all rights resrved</a><br>
+                <a>Version - 1.1.3</a>
+            </center>
+        </div>
+    </div>
+    <script src="option.js"></script>
+</body>
+
+</html>
