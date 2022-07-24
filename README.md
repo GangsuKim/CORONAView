@@ -1,5 +1,5 @@
  # CORONAView
-> 대한민국 COVID-19 확진자 표시 크롬 확장 프로그램 TEST  
+> 대한민국 COVID-19 확진자 표시 크롬 확장 프로그램  
 
 > Showing COVID-19 infected patients in Republic of Korea through Chrome Extension  
 
